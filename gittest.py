@@ -1,11 +1,11 @@
 sum=0
 j=0
-while sum<5:
+while sum<5:# mexri na ginoun kai oi 6 elenxoi
     passw = input ("dwse kodiko: ")
     for x in passw:
         j+=1
     if j>=6 and j<=16:
-        sum+=1
+        sum+=1      
     for x in passw:
         if x in ("qwertyuiopasdfghjklzxcvbnm"):
             sum+=1
