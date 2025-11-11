@@ -4,7 +4,7 @@ while sum<5:# mexri na ginoun kai oi 6 elenxoi
     passw = input ("dwse kodiko: ")
     for x in passw:
         j+=1
-    if j>=6 and j<=16:
+    if j>=6 and j<=16:# metraei ta stoixeia ths sumboloseiras
         sum+=1      
     for x in passw:
         if x in ("qwertyuiopasdfghjklzxcvbnm"):
